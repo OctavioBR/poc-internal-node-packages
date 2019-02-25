@@ -9,7 +9,7 @@ COPY package.json /opt
 # COPY package-lock.json /opt
 # COPY yarn.lock /opt
 
-COPY node_modules /opt
+COPY node_modules/ /opt/node_modules
 
 # node_modules should be populated by package managers instead of copying from developer's machine
 # RUN npm install
