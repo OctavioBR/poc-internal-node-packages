@@ -1,0 +1,16 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "Sample app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@libs/package-a": "file:../libs/a",
+    "@libs/package-b": "file:../libs/b",
+    "@libs/package-c": "file:../libs/c"
+  }
+}
